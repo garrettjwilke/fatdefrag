@@ -270,6 +270,5 @@ uint32_t count_extents(const uint32_t *cl, uint32_t n)
 void warn_backup(void)
 {
     fprintf(stderr,
-            "WARNING: Backup your data before any write operation.\n"
-            "Recommend running fsck on the volume first. The device must be unmounted.\n");
+            "defragging disk...\n");
 }
